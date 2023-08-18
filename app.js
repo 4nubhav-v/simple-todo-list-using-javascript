@@ -1,24 +1,5 @@
-// let input_user=prompt("What would you like to do ? ").toLowerCase;
-// while (input_user !=  "quit"){
-//     let list=[];
-//     let userInput=prompt("Enter command ").toLowerCase;
-//     if (userInput === "list"){
-//         alert("hello world");
-//     }
-//     else if (userInput === "new") {
-//         let newList = prompt("Enter the new list ");
-//         list = list.push(newList);
-//     }
-//     else if (userInput === "delete") {
-//         let deleteList = parseInt(prompt("Enter the position of the list to be deleted "));
-//         list =list.slice(deleteList);
-//     }
-//     else if (userInput === "quit"){
-//         break;
-//     }
-// }
 let input_user="";
-const list=["helllo","world"];
+const list=[];
 while(input_user !== "quit" || input_user !== "q"){
     input_user=prompt("Enter something or Type 'quit/q' to Quit");
     if (input_user === "list"){
