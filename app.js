@@ -1,6 +1,6 @@
 let input_user="";
 const list=[];
-while(input_user !== "quit" || input_user !== "q"){
+while(input_user !== "quit" && input_user !== "q"){
     input_user=prompt("Enter something or Type 'quit/q' to Quit");
     if (input_user === "list"){
         console.log("***************");
